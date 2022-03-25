@@ -1,0 +1,82 @@
+body {
+  font-family: "open sans", Arial, sans-serif;
+  line-height: 1.5;
+  color: black;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  border-right: 1px solid #223843;
+  width: 360px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5ebe0;
+}
+
+#navbar header {
+  text-align: center;
+  font-size: 2em;
+  margin: 10px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: black;
+  position: relative;
+  width: 100%;
+  list-style: none;
+  border-top: 1px solid #a6a2a2;
+  bottom: 10px;
+}
+
+#navbar li:hover {
+  background-color: #a6a2a2;
+}
+
+#navbar a {
+  text-decoration: none;
+  cursor: help;
+  display: block;
+  padding: 10px 20px;
+  color: black;
+}
+
+#navbar a:hover {
+  font-size: 110%;
+}
+
+#main-doc {
+  margin-left: 24%;
+  text-align: left;
+  font-size: 1em;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+#main-doc header {
+  color: black;
+  margin: 20px;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  margin-left: 5%;
+  background-color: #c6c5b9;
+  padding: 15px;
+  border-radius: 5px;
+}
